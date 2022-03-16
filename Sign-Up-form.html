@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="/Sign-Up-form.css">
+    <link
+        href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+        rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Sign-Up Form</h1>
+    </div>
+
+    <div class="view">
+        <div class="name">
+            <div class="nleft">
+                <h4 class="1">Name</h4>
+            </div>
+            <div class="nright">
+                <input type="text" class="nr" placeholder="Username">
+            </div>
+        </div>
+
+        <div class="password">
+            <div class="pleft">
+                <h4 class="pass">Password</h4>
+            </div>
+            <div class="pright">
+                <input type="text" class="pr" id="pas">
+                <p class="para">max 16 characters</p>
+            </div>
+        </div>
+
+        <div class="confirm">
+            <div class="cleft">
+                <h4 class="1">Confirm Password</h4>
+            </div>
+            <div class="cright">
+                <input type="text" class="cr" placeholder="Re-type Password">
+            </div>
+        </div>
+
+        <div class="gender">
+            <div class="gleft">
+                <h4 class="1">Gender</h4>
+            </div>
+            <div class="gright">
+                <input type="radio" name="gender" value="male" class="grm"> Male &nbsp;
+                <input type="radio" name="gender" value="female" class="grf"> Female
+            </div>
+        </div>
+
+        <div class="address">
+            <div class="aleft">
+                <h4 class="1">Address</h4>
+            </div>
+            <div class="aright">
+                <textarea name="address" id="textarea1" cols="50" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div class="country">
+            <div class="coleft">
+                <h4 class="1">Country</h4>
+            </div>
+            <div class="coright">
+                <select name="country" class="cor">
+                    <option value="India">India</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mobile">
+            <div class="mleft">
+                <h4 class="1">Mobile Number</h4>
+            </div>
+            <div class="mright">
+                <input type="text" class="mr" placeholder="Mobile Number">
+            </div>
+        </div>
+
+        <div class="email">
+            <div class="eleft">
+                <h4 class="1">Email Id</h4>
+            </div>
+            <div class="eright">
+                <input type="text" class="er" placeholder="user@domain.com">
+            </div>
+        </div>
+
+        <div class="language">
+            <div class="lleft">
+                <h4 class="1">Languages Known</h4>
+            </div>
+            <div class="lright">
+                <select name="languages" id="languages" class="lr" multiple>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="English">English</option>
+                    <option value="Others">Others</option>
+                  </select>
+            </div>
+        </div>
+
+        <div class="checkbox">
+            <div class="chleft">
+                <h4 class="1">Check the box</h4>
+            </div>
+            <div class="chright">
+                <div class="chr1">
+                    <input class="checkbox1" type="checkbox" id="checkbox">
+                </div>            
+                <input type="text" class="chr" placeholder="I accept the criteria">
+            </div>
+        </div>
+
+        <div class="button">
+            <div class="bright">
+                <button class="br" style="color: white;">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
