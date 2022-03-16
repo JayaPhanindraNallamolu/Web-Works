@@ -1,0 +1,400 @@
+* {
+  margin: 0px;
+}
+
+.heading {
+  width: 900px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+.view {
+  width: 900px;
+  height: 580px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.name {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.nleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.nright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.nr {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.password {
+  width: 100%;
+  height: 65px;
+  background-color: white;
+}
+.pleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.pass {
+  margin-top: 10px;
+}
+.pright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  background-color: white;
+}
+.pr {
+  width: 70%;
+  height: 30px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+.para {
+  font-family: "Roboto", sans-serif;
+}
+
+.confirm {
+  width: 100%;
+  height: 45px;
+  margin-top: 5px;
+  background-color: white;
+}
+.cleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.cright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.cr {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.gender {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.gleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.gright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.grm {
+  margin-right: 5px;
+}
+.grf {
+  margin-right: 5px;
+}
+
+.address {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.aleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.aright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+#textarea1 {
+  width: 70%;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.country {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.coleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.coright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.cor {
+  width: 71%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.mobile {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.mleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.mright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.mr {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.email {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.eleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.eright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.er {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.language {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+.lleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.lright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+#languages {
+  width: 70%;
+  border-radius: 3px;
+  padding: 2px 0px 2px 10px;
+}
+
+.checkbox {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.chleft {
+  width: 30%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.chright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.chr1 {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(211, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+.chr {
+  width: 64.5%;
+  height: 30px;
+  border: 1px solid;
+  border-left: 0px;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+.bright {
+  width: 67%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  float: right;
+  background-color: white;
+}
+.br {
+  width: 10%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #04c35c;
+  padding: 5px 5px 5px 5px;
+}
