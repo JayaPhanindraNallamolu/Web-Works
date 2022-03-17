@@ -7,6 +7,7 @@
   height: 30px;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
   font-family: "Roboto", sans-serif;
   background-color: white;
 }
@@ -20,8 +21,6 @@
 .parentdiv {
   width: 100%;
   margin-bottom: 20px;
-  display: flex;
-  /* justify-content: space-between; */
   display: inline-block;
   background-color: white;
 }
@@ -49,8 +48,12 @@
   width: 100%;
   border: 1px solid;
   border-radius: 3px;
-  padding: 3px 5px 3px 5px;
+  padding: 5px 5px 5px 5px;
   font-family: "Roboto", sans-serif;
+}
+
+.inputfield:focus {
+  outline: 1px solid red;
 }
 
 .password {
@@ -61,14 +64,17 @@
   width: 100%;
   border: 1px solid;
   border-radius: 3px;
-  padding: 3px 5px 3px 5px;
+  padding: 5px 5px 5px 5px;
+}
+.passwordfield:focus {
+  outline: 1px solid red;
 }
 .passwordtext {
   font-family: "Roboto", sans-serif;
 }
 
 .radio {
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .textareatag {
@@ -78,12 +84,20 @@
   padding-left: 5px;
 }
 
+.textareatag:focus {
+  outline: 1px solid red;
+}
+
 .selecttag {
   width: 100%;
   border: 1px solid;
   border-radius: 3px;
-  padding: 3px 0px 3px 5px;
+  padding: 5px 0px 5px 5px;
   font-family: "Roboto", sans-serif;
+}
+
+.selecttag:focus {
+  outline: 1px solid red;
 }
 
 .checkboxparent {
@@ -93,9 +107,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(199, 194, 194);
   padding: 6px 6px 6px 6px;
-  /* align-items: center; */
 }
 
 .lable {
@@ -114,5 +127,10 @@
   border: 1px solid;
   border-radius: 3px;
   padding: 5px 5px 5px 5px;
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
+}
+
+.button:hover {
+  background-color: blue;
 }
