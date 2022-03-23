@@ -9,14 +9,13 @@
 }
 .sidemenu {
   width: 240px;
-  height: 100vh;
-  overflow-y: auto;
-  background-color: #555350;
+  height: 100%;
+  background-color: #d3d3d3;
 }
 
 /* sidemenu css classes */
 
-.ul {
+.sidemenu ul {
   list-style: none;
   padding-inline-start: 0px;
 }
@@ -25,18 +24,20 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #17315e;
 }
-.logo {
+.heading img {
   height: 30px;
   margin: 20px 0px 20px 10px;
+  color: #ffffff;
 }
-.headingtext {
+.heading p {
   margin: 0px 0px 0px 10px;
-  font-size: x-large;
+  font-size: larger;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
-.list {
+.sidemenu li {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,8 +46,8 @@
   cursor: pointer;
   background-color: #ffffff;
 }
-.list:hover {
-  background-color: #ee5f73;
+.sidemenu li:hover {
+  background-color: #214687;
   color: #ffffff;
 }
 .group {
@@ -71,6 +72,7 @@
 .pagecontent {
   width: calc(100% - 240px);
   height: 100%;
+  border-left: 1px solid #d3d3d3;
   background-color: #f8c8d0;
 }
 
@@ -88,7 +90,7 @@
   background-color: #17315e;
 }
 .left {
-  width: 20%;
+  width: 25%;
   height: 100%;
   float: left;
   padding-left: 15px;
@@ -100,12 +102,11 @@
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  margin-right: 30px;
+  margin-right: 20px;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #808080;
 }
 .icon1:hover {
   cursor: pointer;
@@ -118,7 +119,7 @@
   font-family: "Roboto", sans-serif;
 }
 .right {
-  width: 25%;
+  width: 35%;
   height: 100%;
   padding-left: 10px;
   float: right;
@@ -130,7 +131,7 @@
   height: 15px;
   border-radius: 10px;
   padding: 5px;
-  margin-right: 15px;
+  margin-right: 30px;
   display: flex;
   justify-content: start;
   background-color: #ffffff;
@@ -148,18 +149,14 @@
   float: right;
 }
 .usericon {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  margin-right: 15px;
-  cursor: pointer;
-  background-color: #d5a0e5;
-}
-.usericon:hover {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: #808080;
+  margin-right: 30px;
+}
+.usericon:hover {
+  cursor: pointer;
+  background-color: #00ff7f;
 }
 
 /* Cards css classes */
@@ -167,10 +164,10 @@
   width: 100%;
   height: calc(100% - 50px);
   background-color: #ffffff;
-  padding: 20px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 .h2 {
-  margin: 0px 0px 0px 80px;
+  margin: 50px 0px 0px 35px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -178,7 +175,7 @@
 .uppercards {
   width: 100%;
   height: 300px;
-  margin: 30px auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -188,6 +185,7 @@
 .card1 {
   width: 22%;
   height: 250px;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,12 +198,13 @@
   font-size: xx-large;
 }
 .cardpara {
-  margin: 15px 0px 10px 0px;
+  margin: 15px 20px 10px 20px;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
 
 /* lowercardsset css classes */
+
 .lowercards {
   width: 100%;
   height: 300px;
@@ -242,10 +241,13 @@
 .middle {
   width: 100%;
   height: 50%;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
   background-color: #ffffff;
 }
 .cardparas {
-  margin: 15px 0px 0px 15px;
+  /* margin: 15px 0px 0px 15px; */
   font-family: "Roboto", sans-serif;
 }
 .bottom {
@@ -258,4 +260,71 @@
 }
 .bottomicons {
   margin-right: 15px;
+}
+
+/* Table css classes */
+
+.tablecard {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  border: 1px solid #d3d3d3;
+  border-spacing: 0px;
+  border-radius: 5px;
+}
+
+.td,
+.th {
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.th:first-of-type {
+  border-top-left-radius: 5px;
+}
+.th:last-of-type {
+  border-top-right-radius: 5px;
+}
+.tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 5px;
+}
+.tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 5px;
+}
+
+.firstname,
+.progresscolumn {
+  text-align: left;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.bar {
+  width: 200px;
+  height: 10px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  /* background-color: #ffffff; */
+}
+.fill {
+  width: 60%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #d93c98;
+}
+.tr:hover {
+  cursor: pointer;
+  background-color: #214687;
+  color: #ffffff;
 }
