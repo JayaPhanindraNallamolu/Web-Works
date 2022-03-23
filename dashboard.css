@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #ffffff;
+}
+.sidemenu {
+  width: 240px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #555350;
+}
+
+/* sidemenu css classes */
+
+.ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.heading {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.logo {
+  height: 30px;
+  margin: 20px 0px 20px 10px;
+}
+.headingtext {
+  margin: 0px 0px 0px 10px;
+  font-size: x-large;
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.list:hover {
+  background-color: #ee5f73;
+  color: #ffffff;
+}
+.group {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  margin: 20px 0px 20px 15px;
+}
+.lable {
+  margin: 0px 0px 0px 15px;
+  font-family: "Roboto", sans-serif;
+}
+.arrow {
+  height: 15px;
+  margin: 20px 0px 20px 15px;
+  padding-right: 10px;
+}
+
+/* pagecontent css classes */
+.pagecontent {
+  width: calc(100% - 240px);
+  height: 100%;
+  background-color: #f8c8d0;
+}
+
+/* Horizontalmenu css classes */
+
+.horizontalmenu {
+  width: 100%;
+  height: 50px;
+  background-color: #6c7993;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #17315e;
+}
+.left {
+  width: 20%;
+  height: 100%;
+  float: left;
+  padding-left: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.icon1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #808080;
+}
+.icon1:hover {
+  cursor: pointer;
+  background-color: #0079c1;
+}
+.text {
+  margin-right: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.right {
+  width: 25%;
+  height: 100%;
+  padding-left: 10px;
+  float: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.search-box {
+  height: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: start;
+  background-color: #ffffff;
+}
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 5px;
+  margin-right: 5px;
+  float: left;
+}
+.search-btn {
+  color: #808080;
+  float: right;
+}
+.usericon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: #d5a0e5;
+}
+.usericon:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #808080;
+}
+
+/* Cards css classes */
+.cards {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: #ffffff;
+  padding: 20px 0px 10px 0px;
+}
+.h2 {
+  margin: 0px 0px 0px 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* uppercardsset css classes */
+.uppercards {
+  width: 100%;
+  height: 300px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+}
+.card1 {
+  width: 22%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px #f0f2f5;
+  background-color: #ffffff;
+}
+.brands {
+  color: #1877f2;
+  font-size: xx-large;
+}
+.cardpara {
+  margin: 15px 0px 10px 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* lowercardsset css classes */
+.lowercards {
+  width: 100%;
+  height: 300px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+}
+.top {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.cardimage {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-top: -43px;
+}
+.h3 {
+  color: #1877f2;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.designation {
+  font-family: "Roboto", sans-serif;
+}
+.middle {
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff;
+}
+.cardparas {
+  margin: 15px 0px 0px 15px;
+  font-family: "Roboto", sans-serif;
+}
+.bottom {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+.bottomicons {
+  margin-right: 15px;
+}
