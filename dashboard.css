@@ -9,16 +9,12 @@
 }
 .sidemenu {
   width: 240px;
-  height: 100%;
+  height: 100vh;
   background-color: #d3d3d3;
 }
 
 /* sidemenu css classes */
 
-.sidemenu ul {
-  list-style: none;
-  padding-inline-start: 0px;
-}
 .heading {
   height: 50px;
   display: flex;
@@ -37,7 +33,19 @@
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
-.sidemenu li {
+
+.sidebar {
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.sidebar li {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -46,7 +54,7 @@
   cursor: pointer;
   background-color: #ffffff;
 }
-.sidemenu li:hover {
+.sidebar li:hover {
   background-color: #214687;
   color: #ffffff;
 }
@@ -166,7 +174,7 @@
   background-color: #ffffff;
   padding: 10px 0px 10px 0px;
 }
-.h2 {
+.cards h2 {
   margin: 50px 0px 0px 35px;
   font-family: "Roboto", sans-serif;
 }
@@ -174,8 +182,9 @@
 /* uppercardsset css classes */
 .uppercards {
   width: 100%;
-  height: 300px;
+  height: 100%;
   margin: 0px auto;
+  padding: 30px 0px 30px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -184,14 +193,18 @@
 }
 .card1 {
   width: 22%;
-  height: 250px;
+  height: 100%;
   border-radius: 4px;
+  padding: 50px 0px 50px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 15px 5px #f0f2f5;
   background-color: #ffffff;
+}
+.card1 h3 {
+  font-family: "Roboto", sans-serif;
 }
 .brands {
   color: #1877f2;
@@ -207,12 +220,24 @@
 
 .lowercards {
   width: 100%;
-  height: 300px;
+  height: 100%;
+  padding: 40px 0px 40px 0px;
   margin: 30px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #ffffff;
+}
+.card2 {
+  width: 22%;
+  height: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px #f0f2f5;
   background-color: #ffffff;
 }
 .top {
@@ -230,7 +255,7 @@
   border-radius: 40px;
   margin-top: -43px;
 }
-.h3 {
+.personname {
   color: #1877f2;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
@@ -247,7 +272,6 @@
   background-color: #ffffff;
 }
 .cardparas {
-  /* margin: 15px 0px 0px 15px; */
   font-family: "Roboto", sans-serif;
 }
 .bottom {
@@ -264,42 +288,51 @@
 
 /* Table css classes */
 
+.tablesection {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 10px 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.tablesection h2 {
+  margin-left: 25px;
+  margin-top: 0px;
+}
 .tablecard {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding: 20px 20px 20px 20px;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  padding: 10px 20px 20px 20px;
 }
 
-.table {
+.tablesec {
   width: 100%;
   height: 100%;
-  margin-top: 10px;
-  border: 1px solid #d3d3d3;
+  border: 0px solid #d3d3d3;
   border-spacing: 0px;
   border-radius: 5px;
 }
 
-.td,
-.th {
+.tablesec td,
+.tablesec th {
   text-align: center;
   border: 1px solid #d3d3d3;
   padding: 15px;
   font-family: "Roboto", sans-serif;
 }
 
-.th:first-of-type {
+.tablesec th:first-of-type {
   border-top-left-radius: 5px;
 }
-.th:last-of-type {
+.tablesec th:last-of-type {
   border-top-right-radius: 5px;
 }
-.tr:last-of-type td:first-of-type {
+.tablesec tr:last-of-type td:first-of-type {
   border-bottom-left-radius: 5px;
 }
-.tr:last-of-type td:last-of-type {
+.tablesec tr:last-of-type td:last-of-type {
   border-bottom-right-radius: 5px;
 }
 
@@ -315,7 +348,6 @@
   height: 10px;
   background-color: #d3d3d3;
   border-radius: 5px;
-  /* background-color: #ffffff; */
 }
 .fill {
   width: 60%;
@@ -323,8 +355,46 @@
   border-radius: 5px;
   background-color: #d93c98;
 }
-.tr:hover {
+.tablesec tr:hover {
   cursor: pointer;
   background-color: #214687;
   color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .sidemenu {
+    display: none;
+  }
+  .horizontalmenu {
+    display: none;
+  }
+  .pagecontent {
+    width: 100%;
+  }
+  .uppercards {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    width: 44%;
+    margin: 15px 0px 15px 0px;
+  }
+  .lowercards {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .card2 {
+    width: 44%;
+    margin: 25px 0px 25px 0px;
+  }
+  .tablesection {
+    width: 100%;
+  }
+  .tablecard {
+    width: 100%;
+    overflow: auto;
+  }
+  tablesec {
+    table-layout: fixed;
+  }
 }
