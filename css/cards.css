@@ -1,0 +1,118 @@
+.cards {
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+  }
+  .cards h2 {
+    margin: 50px 0px 0px 35px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* uppercardsset css classes */
+  .uppercards {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .card1 {
+    width: 22%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px 5px #f0f2f5;
+    background-color: #ffffff;
+  }
+  .card1 h3 {
+    font-family: "Roboto", sans-serif;
+  }
+  .brands {
+    color: #1877f2;
+    font-size: xx-large;
+  }
+  .cardpara {
+    margin: 15px 20px 10px 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* lowercardsset css classes */
+  
+  .lowercards {
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px 40px 0px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .card2 {
+    width: 22%;
+    height: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px 5px #f0f2f5;
+    background-color: #ffffff;
+  }
+  .top {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .cardimage {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: -43px;
+  }
+  .personname {
+    color: #1877f2;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  .designation {
+    font-family: "Roboto", sans-serif;
+  }
+  .middle {
+    width: 100%;
+    height: 50%;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+  .cardparas {
+    font-family: "Roboto", sans-serif;
+  }
+  .bottom {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+  }
+  .bottomicons {
+    margin-right: 15px;
+  }
+  

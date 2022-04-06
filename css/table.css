@@ -1,0 +1,60 @@
+.tablecard {
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.tablesec {
+  width: 100%;
+  height: 100%;
+  border: 0px solid #d3d3d3;
+  border-spacing: 0px;
+  border-radius: 5px;
+}
+
+.tablesec td,
+.tablesec th {
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.tablesec th:first-of-type {
+  border-top-left-radius: 5px;
+}
+.tablesec th:last-of-type {
+  border-top-right-radius: 5px;
+}
+.tablesec tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 5px;
+}
+.tablesec tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 5px;
+}
+
+.firstname,
+.progresscolumn {
+  text-align: left;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.bar {
+  width: 200px;
+  height: 10px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+.fill {
+  width: 60%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #d93c98;
+}
+.tablesec tr:hover {
+  cursor: pointer;
+  background-color: #214687;
+  color: #ffffff;
+}

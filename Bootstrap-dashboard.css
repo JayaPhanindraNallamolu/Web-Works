@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.sidemenu {
+  width: 240px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.pagecontent {
+  width: calc(100% - 240px);
+  height: 100%;
+  border-left: 1px solid #d3d3d3;
+  background-color: #d3d3d3;
+}
+
+.number {
+  height: 100%;
+}
+.linegraph {
+  width: 100%;
+}
+.maincontent {
+  height: 220px;
+}
