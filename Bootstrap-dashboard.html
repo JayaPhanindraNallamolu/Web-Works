@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Bootstrap-dashboard.css">
+    <link rel="stylesheet" href="/css/sidemenu.css">
+    <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/horizontalmenu.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <link rel="stylesheet" href="Images/fontawesome/css/all.css">
+
+    <script src="/javascript/bootstrap-dashboard.js"></script>
+    <link
+        href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+        rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <section class="wrapper" id="persay">
+        <div class="sidemenu" id="sideclose">
+            <div class="heading">
+                <img src="/images/mg-logo-wht.png">
+                <p>MOBIGESTURE</p>
+            </div>
+
+            <div class="sidebar">
+                <ul>
+                    <!-- <a onclick="accessLogin1()"> -->
+                    <li>
+                        <div class="group">
+                            <span class="icon">
+                                <i class="fas fa-right-to-bracket"></i>
+                            </span>
+                            <p class="lable">Login Page1</p>
+                        </div>
+                        <span class="arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </li>
+                    <!-- </a> -->
+
+                    <!-- <a onclick="accessLogin2()"> -->
+                    <li>
+                        <div class="group">
+                            <span class="icon">
+                                <i class="fas fa-sign-in"></i>
+                            </span>
+                            <p class="lable">Login Page2</p>
+                        </div>
+                        <span class="arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </li>
+                    <!-- </a> -->
+                    <!-- <a onclick="accessSignup()"> -->
+                    <li>
+                        <div class="group">
+                            <span class="icon">
+                                <i class="fas fa-user-plus"></i>
+                            </span>
+                            <p class="lable">Sign Up Form</p>
+                        </div>
+                        <span class="arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </li>
+                    <!-- </a> -->
+                    <!-- <a onclick="accessDashboard()"> -->
+                    <li>
+                        <div class="group">
+                            <span class="icon">
+                                <i class="fas fa-chart-line"></i>
+                            </span>
+                            <p class="lable">Dashboard</p>
+                        </div>
+                        <span class="arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </li>
+                    <!-- </a> -->
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <div class="pagecontent">
+
+            <div class="horizontalmenu">
+                <div class="content">
+                    <div class="leftpart">
+                        <img src="/Images/mg-logo-wht.png" class="mobilogo">
+
+                        <a onclick="myfunction()" href="#">
+                            <span class="icon1">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                        </a>
+                        <span class="icon1 horizontalmenu-hide">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon1 horizontalmenu-hide">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span class="icon1 horizontalmenu-hide dots">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </span>
+                    </div>
+
+                    <div class="rightpart">
+                        <div class="search-box horizontalmenu-hide">
+                            <input type="text" class="search-text" placeholder="Search....">
+                            <a href="" class="search-btn">
+                                <span>
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <img src="/images/relax.png" class="usericon">
+                        <p class="text">Steve</p>
+                        <span class="icon1">
+                            <i class="fas fa-angle-down"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="login-page1" class="container-fluid"></div>
+            <div id="login-page2" class="container-fluid"></div>
+            <div id="signupform" class="container-fluid"></div>
+            <div id="validations" class="container-fluid"></div>
+
+
+            <div id="dashboard" class="container-fluid px-0">
+
+                <div class="container-fluid d-none">
+                    <div class="row navbar bg-light d-flex justify-content-between">
+
+                        <h6 class="mt-2">DASHBOARD</h6>
+
+
+
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-light">Dashboard</button>
+                            <button class="btn btn-danger ml-2">Upgrade</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Four column cards section -->
+
+                <div class="container-fluid mt-4 d-none">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+                                <div class="card-body maincontent">
+                                    <div class="card-title">TOTAL VISIT</div>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <img src="/Images/boot/vertical-bar-graph.png" class="img-fluid graphical">
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-center align-items-center number">
+                                                <h4>689</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+                                <div class="card-body maincontent">
+                                    <div class="card-title">TOTAL PAGE VIEWS
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <img src="/Images/boot/vertical-bar-graph.png" class="img-fluid graphical">
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-center align-items-center number">
+                                                <h4>849</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+                                <div class="card-body maincontent">
+                                    <div class="card-title">UNIQUE VISITOR</div>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <img src="/Images/boot/vertical-bar-graph.png" class="img-fluid graphical">
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-center align-items-center number">
+                                                <h4>963</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+                                <div class="card-body maincontent">
+                                    <div class="card-title">UNIQUE VISITOR</div>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <img src="/Images/boot/vertical-bar-graph.png" class="img-fluid graphical">
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-center align-items-center number">
+                                                <h4>963</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Single column section -->
+
+                <div class="container-fluid mt-4 d-none">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">PRODUCTS YEARLY SALES</div>
+                                    <img src="/Images/boot/line_graph.png" class="linegraph">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="cards">
+                    <h2>Cards</h2>
+                    <div class="uppercards">
+                        <div class="card1">
+                            <span class="brands">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                            <h3>Instagram</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit, id quo eruditi eloquentiam. Assum decore te
+                                sed.
+                                Elitr scripta ocurreret qui ad.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                        <div class="card1">
+                            <span class="brands">
+                                <i class="fa-brands fa-twitter "></i>
+                            </span>
+                            <h3>Twitter</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit, id quo eruditi eloquentiam. Assum decore te
+                                sed.
+                                Elitr scripta ocurreret qui ad.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                        <div class="card1">
+                            <span class="brands">
+                                <i class="fa-brands fa-facebook-f "></i>
+                            </span>
+                            <h3>Facebook</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit, id quo eruditi eloquentiam. Assum decore te
+                                sed.
+                                Elitr scripta ocurreret qui ad.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                        <div class="card1">
+                            <span class="brands">
+                                <i class="fa-brands fa-youtube "></i>
+                            </span>
+                            <h3>Youtube</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit, id quo eruditi eloquentiam. Assum decore te
+                                sed.
+                                Elitr scripta ocurreret qui ad.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="lowercards">
+                        <div class="card2">
+                            <div class="top">
+                                <img src="/images/Woman.png" class="cardimage">
+                                <h3 class="personname">Jean Torres</h3>
+                                <p class="designation">Marketing</p>
+                            </div>
+                            <div class="middle">
+                                <p class="cardparas">Lorem ipsum dolor sit, id quo eruditi eloquentiam. Assum decore
+                                    te sed.
+                                    Elitr scripta ocurreret qui ad. Vivamus eget eros vestibulum, accumsan ante
+                                    viverra,
+                                    condimentum tellus.</p>
+                            </div>
+                            <div class="bottom">
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-twitter "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-facebook-f "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-instagram "></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <div class="top">
+                                <img src="/images/man1.png" class="cardimage">
+                                <h3 class="personname">Doris Meyer</h3>
+                                <p class="designation">Product Manager</p>
+                            </div>
+                            <div class="middle">
+                                <p class="cardparas">Lorem ipsum dolor sit, id quo hig eruditi eloquentiam. Assum
+                                    decore te
+                                    sed. Elitr scripta ocurreret qui ad.</p>
+                            </div>
+                            <div class="bottom">
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-twitter "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-instagram "></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <div class="top">
+                                <img src="/images/man.png" class="cardimage">
+                                <h3 class="personname">Ronald Reid</h3>
+                                <p class="designation">iOS Developer</p>
+                            </div>
+                            <div class="middle">
+                                <p class="cardparas">Lorem ipsum dolor sit, id quo hig eruditi eloquentiam. Assum
+                                    decore te
+                                    sed. Elitr scripta ocurreret qui ad. thi is jaljfkjafhajfa fafuafaf jakfshfisf
+                                    slasgh9ahfas fsljflsha afsahfshfs sfhoshfoasf asfsahf89shf aashfasuhfa afsau9h
+                                    jfajfhafhasfknsf9asf nlkaf9afns. sfjknsjfs fsbfsdniufhsf sjfn sfhuahfkjns fsf s
+                                    fsdfjdn98f sfkjush f ajkhsaufsa fs fsdfjsfnsd fs 8fs fs fsufhsofns</p>
+                            </div>
+                            <div class="bottom">
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-twitter "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-github "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-instagram "></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <div class="top">
+                                <img src="/images/Woman.png" class="cardimage">
+                                <h3 class="personname">Torres Rey</h3>
+                                <p class="designation">React Developer</p>
+                            </div>
+                            <div class="middle">
+                                <p class="cardparas">Lorem ipsum dolor sit, id quo hig eruditi eloquentiam. Assum
+                                    decore te
+                                    sed. Elitr scripta ocurreret qui ad.</p>
+                            </div>
+                            <div class="bottom">
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-twitter "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-facebook-f "></i>
+                                </span>
+                                <span class="bottomicons">
+                                    <i class="fa-brands fa-instagram "></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+
+                <!-- Two column section -->
+
+                <div class="container-fluid mt-4 mb-5 d-none">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 col-xs-12 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">Table</div>
+
+                                    <div class="tablecard">
+                                        <table class="tablesec">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Firstname</th>
+                                                <th>Progress</th>
+                                                <th>Amount</th>
+                                                <th>Deadline</th>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td class="firstname">Heman</td>
+                                                <td class="progresscolumn">
+                                                    <div class="bar">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </td>
+                                                <td>$77.99</td>
+                                                <td>May 15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td class="firstname">Helenski</td>
+                                                <td class="progresscolumn">
+                                                    <div class="bar">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </td>
+                                                <td>$757.99</td>
+                                                <td>May 15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td class="firstname">Himanshu</td>
+                                                <td class="progresscolumn">
+                                                    <div class="bar">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </td>
+                                                <td>$102.99</td>
+                                                <td>May 15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td class="firstname">Hemanth</td>
+                                                <td class="progresscolumn">
+                                                    <div class="bar">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </td>
+                                                <td>$45.99</td>
+                                                <td>May 15</td>
+                                            </tr>
+                                        </table>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">Projections and Realisations</div>
+
+                                    <img src="/Images/boot/line_graph.png" class="img-fluid">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>

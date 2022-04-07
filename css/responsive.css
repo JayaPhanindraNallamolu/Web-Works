@@ -1,0 +1,58 @@
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .pagecontent{
+  width: 100%;
+  }
+  .sidemenu{
+    display: none;
+  }
+  .horizontalmenu-hide{
+    display: none;
+  }
+  .text{
+    display: none;
+  }
+  .icon1,.usericon{
+    margin-right: 10px;
+  }
+
+  .mobilogo{
+    display: block;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .mystyle{
+    position: absolute;
+    top: 50px;
+    left: 0px;  
+    width: 80%;
+    z-index: 1;
+    display: block;
+  }
+  .heading{
+    display: none;
+  }
+  .checknow{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .dots{
+    display: none;
+  }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
