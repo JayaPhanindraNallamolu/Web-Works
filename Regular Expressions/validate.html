@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/validate.css">
+    <script src="/validator.js"></script>
+    <script src="/regularExpression.js"></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" placeholder="Enter your First Name">
+                <small id="firstnametext"></small>
+            </div>
+            <div class="input-control">
+                <label for="mobile">Mobile Number</label>
+                <input type="text" id="mobile" placeholder="Enter your Mobile Number">
+                <small id="mobiletext"></small>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter your Email">
+                <small id="emailtext"></small>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your Password">
+                <small id="passwordtext"></small>
+            </div>
+            <div class="input-control">
+                <label for="Address">Address</label>
+                <input type="text" id="address" placeholder="Enter your Address">
+                <small id="addresstext"></small>
+            </div>
+            <div class="input-control">
+                <label for="postalcode">Postal Code</label>
+                <input type="text" id="postalcode" placeholder="Enter your Postal Code">
+                <small id="postalcodetext"></small>
+            </div>
+            <div class="input-control">
+                <label for="website">Website Url</label>
+                <input type="text" id="website" placeholder="Enter your Website Url">
+                <small id="websitetext"></small>
+            </div>
+            <div class="input-control">
+                <label for="pancard">Pan Card</label>
+                <input type="text" id="pancard" placeholder="Enter your Pan Card Details">
+                <small id="pancardtext"></small>
+            </div>
+            <div class="input-control">
+                <label for="number">Lucky Number</label>
+                <input type="text" id="number" placeholder="Enter your Lucky Number">
+                <small id="numbertext"></small>
+            </div>
+            <div class="input-control">
+                <label for="date">Date</label>
+                <input type="text" id="date" placeholder="Enter Date">
+                <small id="datetext"></small>
+            </div>
+            <button type="button" id="submit" onclick="validateformsubmit()">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

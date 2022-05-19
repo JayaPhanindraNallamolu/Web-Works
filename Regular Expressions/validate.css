@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+#form{
+    background-color: #ffffff;
+    width: 50%;
+    margin: 5vh auto 0 auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#form h1{
+    color: black;
+    text-align: center;
+}
+#form button{
+    margin-top: 10px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control label{
+    margin-top: 5px;
+}
+.input-control input{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.input-control.success input{
+    border-color: #09c372;
+}
+.input-control.error input{
+    border-color: #ff3860;
+}
